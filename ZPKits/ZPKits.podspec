@@ -91,7 +91,7 @@ s.source       = { :git => "https://github.com/ZhaoPenger/ZPKits.git", :tag => "
 #  Not including the public_header_files will make all headers public.
 #
 
-s.source_files  = "ZPKits/Class/*.{h,m}"
+s.source_files  = "ZPKits/ZPKits"
 #s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"

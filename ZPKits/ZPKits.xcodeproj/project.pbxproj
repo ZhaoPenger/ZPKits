@@ -15,6 +15,7 @@
 		758842DC1FE11E5500A0544C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758842DB1FE11E5500A0544C /* main.m */; };
 		758842E61FE11E5500A0544C /* ZPKitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 758842E51FE11E5500A0544C /* ZPKitsTests.m */; };
 		758842F11FE11E5600A0544C /* ZPKitsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 758842F01FE11E5600A0544C /* ZPKitsUITests.m */; };
+		758843011FE1205A00A0544C /* ZPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 758843001FE1205A00A0544C /* ZPObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		758842EC1FE11E5600A0544C /* ZPKitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPKitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		758842F01FE11E5600A0544C /* ZPKitsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPKitsUITests.m; sourceTree = "<group>"; };
 		758842F21FE11E5600A0544C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758842FF1FE1205A00A0544C /* ZPObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPObject.h; sourceTree = "<group>"; };
+		758843001FE1205A00A0544C /* ZPObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 		758842FE1FE11FBA00A0544C /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				758842FF1FE1205A00A0544C /* ZPObject.h */,
+				758843001FE1205A00A0544C /* ZPObject.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				758842D11FE11E5500A0544C /* ViewController.m in Sources */,
 				758842DC1FE11E5500A0544C /* main.m in Sources */,
+				758843011FE1205A00A0544C /* ZPObject.m in Sources */,
 				758842CE1FE11E5500A0544C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

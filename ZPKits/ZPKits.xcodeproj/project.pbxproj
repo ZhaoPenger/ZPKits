@@ -101,6 +101,7 @@
 		758842CB1FE11E5500A0544C /* ZPKits */ = {
 			isa = PBXGroup;
 			children = (
+				758842FE1FE11FBA00A0544C /* Class */,
 				758842CC1FE11E5500A0544C /* AppDelegate.h */,
 				758842CD1FE11E5500A0544C /* AppDelegate.m */,
 				758842CF1FE11E5500A0544C /* ViewController.h */,
@@ -130,6 +131,13 @@
 				758842F21FE11E5600A0544C /* Info.plist */,
 			);
 			path = ZPKitsUITests;
+			sourceTree = "<group>";
+		};
+		758842FE1FE11FBA00A0544C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

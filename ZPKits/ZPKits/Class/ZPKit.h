@@ -52,11 +52,11 @@
 #endif
 
 //文件根目录归档
-#define ZPArchive(object,name) [ZPUtils ZP_archiveWithObject:object fileName:name]
+#define ZPArchive(object,name) [ZPUtils zp_archiveWithObject:object fileName:name]
 //文件根目录解档
-#define ZPUnArchive(name) [ZPUtils ZP_unArchiveWithFileName:name]
+#define ZPUnArchive(name) [ZPUtils zp_unArchiveWithFileName:name]
 //删除根目录下的文件
-#define ZPDeleteArchiveFile(name) [ZPUtils ZP_deleteArchiveWithFileName:name]
+#define ZPDeleteArchiveFile(name) [ZPUtils zp_deleteArchiveWithFileName:name]
 
 
 //! Project version number for ZPKit.

@@ -68,7 +68,7 @@
  @param name <#fileName description#>
  @return <#return value description#>
  */
-+(BOOL)ZP_archiveWithObject:(id)object fileName:(NSString*)name{
++(BOOL)zp_archiveWithObject:(id)object fileName:(NSString*)name{
     NSString *filePath = [[ZPUtils judgeCreateZPArchiveFolder] stringByAppendingPathComponent:name];
     return [NSKeyedArchiver archiveRootObject:object toFile:filePath];
 }
@@ -79,7 +79,7 @@
  @param name <#name description#>
  @return <#return value description#>
  */
-+(id)ZP_unArchiveWithFileName:(NSString*)name{
++(id)zp_unArchiveWithFileName:(NSString*)name{
     NSString *filePath = [[ZPUtils judgeCreateZPArchiveFolder] stringByAppendingPathComponent:name];
     return [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
 }
@@ -90,7 +90,7 @@
  @param name <#name description#>
  @return <#return value description#>
  */
-+(BOOL)ZP_deleteArchiveWithFileName:(NSString*)name{
++(BOOL)zp_deleteArchiveWithFileName:(NSString*)name{
     NSString *filePath = [[ZPUtils judgeCreateZPArchiveFolder] stringByAppendingPathComponent:name];
     NSError *error;
     BOOL flag = [[NSFileManager defaultManager] removeItemAtPath:filePath error:&error];

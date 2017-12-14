@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "ZPKits"
-s.version      = "0.0.3"
+s.version      = "0.0.5"
 s.summary      = "This is my own Kit"
 
 # This description is used to generate tags and improve search results.

@@ -1,13 +1,13 @@
 //
-//  ZPObject.h
+//  NSDate+ZPKit.h
 //  ZPKits
 //
-//  Created by 赵鹏 on 2017/12/13.
+//  Created by 赵鹏 on 2017/12/14.
 //  Copyright © 2017年 赵鹏. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface ZPObject : NSObject
+@interface NSDate (ZPKit)
 
 @end

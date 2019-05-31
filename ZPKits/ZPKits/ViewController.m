@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NSObject+SEL.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [self performSelector:@selector(add:b:) withArguments:@[@"1234",@"456"]];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+
+-(NSString *)add:(NSString *)a b:(NSString *)b{
+    NSLog(@"%@   %@",a,b);
+    return a;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

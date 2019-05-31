@@ -15,6 +15,7 @@
 		758842DC1FE11E5500A0544C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758842DB1FE11E5500A0544C /* main.m */; };
 		758842E61FE11E5500A0544C /* ZPKitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 758842E51FE11E5500A0544C /* ZPKitsTests.m */; };
 		758842F11FE11E5600A0544C /* ZPKitsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 758842F01FE11E5600A0544C /* ZPKitsUITests.m */; };
+		75B0CC4522A0F9FE0017C830 /* NSObject+SEL.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B0CC4422A0F9FE0017C830 /* NSObject+SEL.m */; };
 		75CCF5901FE258ED00CE9233 /* NSDate+ZPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCF58F1FE258ED00CE9233 /* NSDate+ZPKit.m */; };
 		75CCF5931FE2592100CE9233 /* NSObject+ZPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCF5921FE2592100CE9233 /* NSObject+ZPKit.m */; };
 		75CCF5961FE2597300CE9233 /* NSString+ZPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCF5951FE2597300CE9233 /* NSString+ZPKit.m */; };
@@ -65,6 +66,8 @@
 		758842EC1FE11E5600A0544C /* ZPKitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPKitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		758842F01FE11E5600A0544C /* ZPKitsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPKitsUITests.m; sourceTree = "<group>"; };
 		758842F21FE11E5600A0544C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B0CC4322A0F9FE0017C830 /* NSObject+SEL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SEL.h"; sourceTree = "<group>"; };
+		75B0CC4422A0F9FE0017C830 /* NSObject+SEL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SEL.m"; sourceTree = "<group>"; };
 		75CCF58E1FE258ED00CE9233 /* NSDate+ZPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZPKit.h"; sourceTree = "<group>"; };
 		75CCF58F1FE258ED00CE9233 /* NSDate+ZPKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZPKit.m"; sourceTree = "<group>"; };
 		75CCF5911FE2592100CE9233 /* NSObject+ZPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZPKit.h"; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 				75CCF5B41FE25D1900CE9233 /* ZPRSA.m */,
 				75CCF5B61FE25D7D00CE9233 /* ZPUtils.h */,
 				75CCF5B71FE25D7D00CE9233 /* ZPUtils.m */,
+				75B0CC4322A0F9FE0017C830 /* NSObject+SEL.h */,
+				75B0CC4422A0F9FE0017C830 /* NSObject+SEL.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -349,6 +354,7 @@
 				75CCF5B11FE25C9000CE9233 /* ZPKeyChain.m in Sources */,
 				75CCF5B51FE25D1900CE9233 /* ZPRSA.m in Sources */,
 				758842D11FE11E5500A0544C /* ViewController.m in Sources */,
+				75B0CC4522A0F9FE0017C830 /* NSObject+SEL.m in Sources */,
 				75CCF59F1FE25A9900CE9233 /* UIColor+ZPKit.m in Sources */,
 				75CCF5A21FE25B0C00CE9233 /* UIFont+ZPKit.m in Sources */,
 				75CCF59C1FE25A5800CE9233 /* UIButton+ZPKit.m in Sources */,
